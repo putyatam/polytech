@@ -431,3 +431,58 @@ FodyWeavers.xsd
 
 *.msm
 *.msp
+
+
+# === Настройки Visual Studio Code ===
+.vscode/*
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+# settings.json часто содержит личные пути и предпочтения (темы, шрифты)
+.vscode/settings.json
+
+# === Скомпилированные файлы и артефакты сборки (C++) ===
+*.exe
+*.dll
+*.so
+*.dylib
+*.obj
+*.o
+*.out
+*.app
+*.pdb
+*.ilk
+*.exp
+*.a
+*.lib
+*.idb
+*.iobj
+*.ipdb
+
+# === Папки сборки (зависит от системы сборки) ===
+build/
+cmake-build-debug/
+cmake-build-release/
+bin/
+obj/
+Debug/
+Release/
+
+# === Файлы CMake (если используется) ===
+CMakeCache.txt
+CMakeFiles/
+compile_commands.json
+Makefile
+cmake_install.cmake
+
+# === Временные и системные файлы ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+*.tmp
+
+# === Логи и тесты ===
+*.log
+*.trx
