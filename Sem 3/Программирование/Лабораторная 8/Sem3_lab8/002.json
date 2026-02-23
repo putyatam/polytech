@@ -1,0 +1,44 @@
+[
+    {
+        "Address": "Манчестерская 3, корпус 2",
+        "DOB": "01.10.2005",
+        "Email": "kozlovskayaoa@gmail.com",
+        "Name": "Ольга",
+        "Patronymic": "Алексеевна",
+        "Phone_Numbers": [
+            "7 (952) 812-84-56",
+            "8 (888) 888-88-88"
+        ],
+        "Phone_types": [
+            "2",
+            "0"
+        ],
+        "Surname": "Козловская"
+    },
+    {
+        "Address": "Коммуны 44, корпус 2, кв 91",
+        "DOB": "03.11.2005",
+        "Email": "lelyakozlov@mail.ru",
+        "Name": "Алексей",
+        "Patronymic": "Сергеевич",
+        "Phone_Numbers": [
+            "+87 (555) 123-87-98"
+        ],
+        "Phone_types": [
+            "1"
+        ],
+        "Surname": "Козлов"
+    },
+    {
+        "Address": "Не задано",
+        "DOB": "",
+        "Email": "",
+        "Name": "Марк",
+        "Patronymic": "Не задано",
+        "Phone_Numbers": [
+        ],
+        "Phone_types": [
+        ],
+        "Surname": "Балакирев"
+    }
+]
