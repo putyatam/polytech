@@ -1,0 +1,8 @@
+varConst:=0x6 // Опеределение константы
+myVar := varConst * (0x47.4 - 0x29.174 * mathPi)
+/*Пример
+Многострочного
+Комментария*/
+
+myVar:= (mathPi) / 0x0.1
+varConst + mathPi + myVar | var1new * 0xfff + 0x1
