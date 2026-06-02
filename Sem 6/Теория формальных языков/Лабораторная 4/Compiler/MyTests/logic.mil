@@ -1,0 +1,17 @@
+begin
+		// int i := 0;
+    switch (0) begin
+			case 1:
+				write(1);
+				write(11)
+				break;
+			case 2:
+				write(2)
+				break;
+			case 0:
+				write(999)
+				break;
+		endcase
+end
+// fnwfwjnfuwnf
+

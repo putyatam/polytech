@@ -1,0 +1,8 @@
+begin
+    int a := 10;
+    int b := 3;
+    int c := a + b * 2;
+    int d := (a - b) / 2;
+    write(c);
+    write(d)
+end

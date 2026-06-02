@@ -1,0 +1,6 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="Compiler/Compiler.vcxproj" Id="f8e4ba86-0fe0-4407-a01f-c96665e25b98" />
+</Solution>

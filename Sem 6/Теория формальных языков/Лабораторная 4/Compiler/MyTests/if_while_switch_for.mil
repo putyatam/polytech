@@ -1,0 +1,87 @@
+begin
+    int scores[5] := {72, 45, 91, 58, 83};
+    int i := 0;
+    int countA := 0;
+    int countB := 0;
+    int countC := 0;
+    int countFail := 0;
+    int sum := 0;
+		// Переводим оценку в рейтинг
+    while i < len(scores) do
+        int score := scores[i];
+        sum := sum + score;
+
+        int grade := 0;
+        if score >= 90 then
+            grade := 4
+        else
+            if score >= 75 then
+                grade := 3
+            else
+                if score >= 60 then
+                    grade := 2
+                else
+                    grade := 1
+                fi
+            fi
+        fi
+				 // Выводим оценку и рейтинг
+        switch (grade) begin
+            case 4:
+                write(score);
+                write(4);
+                countA := countA + 1
+                break;
+            case 3:
+                write(score);
+                write(3);
+                countB := countB + 1
+                break;
+            case 2:
+                write(score);
+                write(2);
+                countC := countC + 1
+                break;
+            case 1:
+                write(score);
+                write(1);
+                countFail := countFail + 1
+                break;
+            default:
+                write(0)
+        endcase
+
+        i := i + 1
+    od
+		 // Выписываем сумму оценок
+    write(sum);
+		 // Средняя оценка
+    int avg := sum / len(scores);
+    write(avg);
+		
+		 // Находим макимальную оценку
+    int maxGrade := 0;
+    for (int j := 0; j < len(scores); j := j + 1) do
+        if scores[j] > maxGrade then
+            maxGrade := scores[j]
+        fi
+    od
+
+		sorted(scores);
+		maxGrade := scores[len(scores) - 1];
+    write(maxGrade);
+		
+		 // Количество оценок для каждого рейтинга
+    if countA > 0 then
+        write(countA)
+    fi
+    if countB > 0 then
+        write(countB)
+    fi
+    if countC > 0 then
+        write(countC)
+    fi
+    if countFail > 0 then
+        write(countFail)
+    fi
+end
